@@ -1,0 +1,74 @@
+============================================================================
+PUBLIC TRANSPORT MANAGEMENT SYSTEM - JAVA PROGRAMMING (25ITT32)
+MANUAL GIVING - SAMPLE INPUT SEQUENCES
+============================================================================
+
+These sample inputs can be entered manually when running 'run_java.bat' or
+running 'java -cp bin com.transport.app.TransportManagementApp'.
+
+----------------------------------------------------------------------------
+SCENARIO 1: SEARCH BUS SCHEDULES
+----------------------------------------------------------------------------
+Menu Choice         : 2
+Enter Source City   : Bangalore
+Enter Destination   : Chennai
+[Expected Output]   : Displays Schedule #301 (Fare: ₹850.00, AC Sleeper)
+
+----------------------------------------------------------------------------
+SCENARIO 2: BOOK A BUS TICKET (CONFIRMED BOOKING)
+----------------------------------------------------------------------------
+Menu Choice         : 3
+Enter Passenger ID  : 105
+Enter Passenger Name: Karthik Raman
+Enter Phone Number  : 9876543214
+Enter Email Address : karthik.raman@example.com
+Enter Schedule ID   : 301
+Enter Seat Number   : A1
+[Expected Output]   : Booking confirmed with e-ticket and digital QR code
+
+----------------------------------------------------------------------------
+SCENARIO 3: SEAT UNAVAILABLE TEST (EXCEPTION HANDLING)
+----------------------------------------------------------------------------
+Menu Choice         : 3
+Enter Passenger ID  : 106
+Enter Schedule ID   : 301
+Enter Seat Number   : A1
+[Expected Output]   : [BOOKING FAILED] Seat 'A1' on Schedule 301 is unavailable or bus is full!
+                      (SeatUnavailableException handled gracefully)
+
+----------------------------------------------------------------------------
+SCENARIO 4: CANCEL A TICKET AND RELEASE SEAT
+----------------------------------------------------------------------------
+Menu Choice         : 4
+Enter Booking ID    : 501
+[Expected Output]   : Booking #501 successfully cancelled; seat released for others.
+
+----------------------------------------------------------------------------
+SCENARIO 5: VIEW TICKET AND PRINT BOARDING PASS
+----------------------------------------------------------------------------
+Menu Choice         : 5
+Enter Booking ID    : 502
+[Expected Output]   : Electronic Passenger Boarding Pass printed to console.
+
+----------------------------------------------------------------------------
+SCENARIO 6: ADMIN - ADD NEW BUS TO FLEET
+----------------------------------------------------------------------------
+Menu Choice         : 6
+Enter Bus ID        : BUS-09
+Enter Bus Number    : KA-04-E-7788
+Enter Capacity      : 36
+Enter Bus Type      : Volvo Multi-Axle
+[Expected Output]   : Bus KA-04-E-7788 added to fleet successfully.
+
+----------------------------------------------------------------------------
+SCENARIO 7: ANALYTICAL REPORTS (STREAM API)
+----------------------------------------------------------------------------
+Menu Choice         : 8
+[Expected Output]   : Displays Route-wise total revenue and Bus occupancy rates.
+
+----------------------------------------------------------------------------
+SCENARIO 8: MULTITHREADED CONCURRENT BOOKING SIMULATION
+----------------------------------------------------------------------------
+Menu Choice         : 9
+[Expected Output]   : Simultaneous booking simulation across 2 threads; exactly
+                      one thread secures the seat while preventing race condition.

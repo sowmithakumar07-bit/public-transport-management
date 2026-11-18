@@ -1,0 +1,42 @@
+Report ID: 101 | Type: Comprehensive Travel Analytics & EDA | Date: 2026-11-17 21:47:56
+============================================================================
+  EXPLORATORY DATA ANALYSIS & PASSENGER TRAVEL PATTERNS REPORT
+============================================================================
+
+1. MEASURES OF CENTRAL TENDENCY & VARIABILITY:
+
+   Metric: Fare
+   - Mean      :    1053.30 | Median :    1047.50
+   - Std Dev   :     247.84 | Variance:   61424.90
+   - Min - Max :     550.00 to    2001.17 (IQR: 390.00)
+   - Quantiles : 25% = 867.50, 50% = 1047.50, 75% = 1257.50
+
+   Metric: Distance_KM
+   - Mean      :     479.77 | Median :     510.00
+   - Std Dev   :      83.97 | Variance:    7051.12
+   - Min - Max :     350.00 to     570.00 (IQR: 190.00)
+   - Quantiles : 25% = 350.00, 50% = 510.00, 75% = 540.00
+
+   Metric: LeadDays
+   - Mean      :       4.00 | Median :       4.00
+   - Std Dev   :       2.05 | Variance:       4.20
+   - Min - Max :       1.00 to       7.00 (IQR: 4.00)
+   - Quantiles : 25% = 2.00, 50% = 4.00, 75% = 6.00
+
+2. ROUTE-WISE REVENUE AND OCCUPANCY SUMMARY:
+                        Bookings       Revenue      AvgFare
+Route                                                      
+Chennai -> Coimbatore         44  49665.000000  1128.750000
+Hyderabad -> Bangalore        38  44160.000000  1162.105263
+Bangalore -> Hyderabad        35  40301.174217  1151.462120
+Coimbatore -> Chennai         36  39265.000000  1090.694444
+Bangalore -> Kochi            31  38840.000000  1252.903226
+Chennai -> Bangalore          40  37615.000000   940.375000
+Bangalore -> Chennai          38  33845.000000   890.657895
+Chennai -> Madurai            38  32300.000000   850.000000
+
+3. KEY TRAVEL INSIGHTS & PATTERNS:
+   [1] Highest Revenue Corridor: 'Chennai -> Coimbatore' generated ₹49,665.00 across 44.0 bookings.
+   [2] Dominant Fleet Preference: 'AC Sleeper' represents 81 (27.0%) of passenger bookings.
+   [3] Advance Booking Window: Passengers book their tickets an average of 4.0 days in advance.
+   [4] Ticket Cancellation Ratio: 20.33% of bookings were cancelled before departure.

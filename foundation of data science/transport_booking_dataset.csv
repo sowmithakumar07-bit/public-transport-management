@@ -1,0 +1,303 @@
+BookingID,PassengerID,PassengerName,Gender,Age,Source,Destination,Distance_KM,BusType,DepartureTime,BookingDate,TravelDate,SeatNo,Fare,PaymentMode,Status,Rating
+1001,102,Sneha Sharma,Female,33,Hyderabad,Bangalore,570.0,Non-AC Seater,06:00,2026-11-03,2026-11-08,S28,775.0,Credit Card,Confirmed,3.5
+1002,103,Swati Sharma,Male,63,Bangalore,Kochi,540.0,Non-AC Seater,10:45,2026-11-09,2026-11-16,S1,1000.0,Debit Card,Confirmed,3.3
+1003,104,Suresh Reddy,Male,42,Chennai,Bangalore,350.0,Volvo Multi-Axle,19:00,2026-11-09,2026-11-16,S3,1112.5,UPI,Confirmed,4.1
+1004,105,Swati Sundaram,Male,63,Chennai,Bangalore,350.0,AC Sleeper,08:45,2026-11-10,2026-11-11,S15,977.5,Net Banking,Confirmed,4.3
+1005,106,Kavya Nair,Female,40,Hyderabad,Bangalore,570.0,Volvo Multi-Axle,10:45,2026-11-06,2026-11-11,S16,1325.0,Debit Card,Confirmed,5.0
+1006,107,Deepa Iyer,Female,21,Hyderabad,Bangalore,570.0,AC Sleeper,11:30,2026-11-13,2026-11-16,S5,1315.0,Net Banking,Confirmed,3.8
+1007,108,Arjun Raman,Female,26,Hyderabad,Bangalore,570.0,Volvo Multi-Axle,09:45,2026-11-13,2026-11-16,S15,1475.0,UPI,Confirmed,4.7
+1008,109,Karthik Nair,Female,56,Chennai,Bangalore,350.0,Electric Express,22:00,2026-11-15,2026-11-20,S17,907.5,Cash,Confirmed,4.5
+1009,110,Suresh Reddy,Female,45,Bangalore,Hyderabad,570.0,Electric Express,21:00,2026-11-09,2026-11-14,S12,995.0,Cash,Confirmed,4.2
+1010,111,Karthik Sundaram,Male,52,Bangalore,Chennai,350.0,Volvo Multi-Axle,14:15,2026-11-01,2026-11-02,S24,1162.5,Credit Card,Confirmed,4.8
+1011,112,Rohan Verma,Female,22,Bangalore,Hyderabad,570.0,Non-AC Seater,18:15,2026-11-06,2026-11-09,S34,925.0,Credit Card,Cancelled,
+1012,113,Meera Das,Female,46,Chennai,Madurai,460.0,AC Sleeper,05:15,2026-11-08,2026-11-09,S22,920.0,Credit Card,Cancelled,
+1013,114,Aarav Verma,Male,32,Chennai,Bangalore,350.0,AC Sleeper,13:45,2026-11-03,2026-11-08,S16,1027.5,Cash,Confirmed,3.3
+1014,115,Naveen Nambiar,Female,33,Chennai,Madurai,460.0,Electric Express,16:45,2026-11-04,2026-11-05,S28,760.0,Net Banking,Confirmed,4.7
+1015,116,Diya Reddy,Male,,Coimbatore,Chennai,510.0,AC Sleeper,19:15,2026-11-07,2026-11-09,S35,1207.5,Credit Card,Confirmed,3.6
+1016,117,Ananya Verma,Female,53,Chennai,Bangalore,350.0,AC Sleeper,10:45,2026-11-03,2026-11-10,S16,927.5,Net Banking,Confirmed,3.4
+1017,118,Aditya Patel,Male,42,Bangalore,Chennai,350.0,Electric Express,22:45,2026-11-15,2026-11-18,S28,857.5,Credit Card,Confirmed,3.6
+1018,119,Diya Nambiar,Male,65,Coimbatore,Chennai,510.0,AC Sleeper,10:00,2026-11-16,2026-11-21,S34,1157.5,UPI,Cancelled,
+1019,120,Pooja Verma,Male,61,Hyderabad,Bangalore,570.0,Electric Express,06:00,2026-11-08,2026-11-13,S39,995.0,Cash,Confirmed,4.1
+1020,121,Suresh Kumar,Male,60,Coimbatore,Chennai,510.0,Non-AC Seater,19:30,2026-11-13,2026-11-15,S20,837.5,UPI,Confirmed,3.9
+1021,122,Naveen Reddy,Male,52,Hyderabad,Bangalore,570.0,Volvo Multi-Axle,16:30,2026-11-12,2026-11-13,S16,1375.0,Net Banking,Confirmed,4.7
+1022,123,Meera Chopra,Male,60,Chennai,Coimbatore,510.0,AC Sleeper,22:15,2026-11-09,2026-11-10,S7,1207.5,Debit Card,Confirmed,4.2
+1023,124,Suresh Singh,Female,50,Chennai,Madurai,460.0,Volvo Multi-Axle,13:00,2026-11-03,2026-11-09,S28,950.0,Debit Card,Confirmed,4.5
+1024,125,Rajesh Nair,Female,53,Bangalore,Kochi,540.0,AC Sleeper,22:00,2026-11-03,2026-11-09,S10,1330.0,Cash,Confirmed,4.1
+1025,126,Ishita Raman,Male,37,Coimbatore,Chennai,510.0,AC Sleeper,08:30,2026-11-07,2026-11-13,S16,1257.5,Net Banking,Cancelled,
+1026,127,Swati Raman,Male,28,Bangalore,Hyderabad,570.0,Electric Express,18:15,2026-11-06,2026-11-12,S22,995.0,Credit Card,Confirmed,4.6
+1027,128,Sneha Das,Male,48,Hyderabad,Bangalore,570.0,Non-AC Seater,12:00,2026-11-12,2026-11-15,S15,925.0,Net Banking,Confirmed,3.7
+1028,129,Rohan Kumar,Female,59,Bangalore,Kochi,540.0,Volvo Multi-Axle,23:30,2026-11-04,2026-11-07,S12,1450.0,UPI,Confirmed,4.2
+1029,130,Kavya Menon,Female,56,Chennai,Bangalore,350.0,Electric Express,05:15,2026-11-09,2026-11-10,S28,807.5,Net Banking,Confirmed,3.1
+1030,131,Suresh Chopra,Female,60,Chennai,Bangalore,350.0,Volvo Multi-Axle,14:15,2026-11-14,2026-11-17,S26,1112.5,Net Banking,Confirmed,4.3
+1031,132,Aditya Nair,Female,43,Bangalore,Chennai,350.0,Volvo Multi-Axle,15:45,2026-11-07,2026-11-11,S38,1112.5,Net Banking,Confirmed,4.4
+1032,133,Manoj Bose,Male,60,Chennai,Bangalore,350.0,Volvo Multi-Axle,14:15,2026-11-03,2026-11-10,S16,1112.5,Credit Card,Confirmed,3.0
+1033,134,Ananya Bose,Male,47,Bangalore,Kochi,540.0,Non-AC Seater,09:00,2026-11-16,2026-11-20,S16,1000.0,Net Banking,Confirmed,3.4
+1034,135,Manoj Rao,Male,53,Hyderabad,Bangalore,570.0,AC Sleeper,21:30,2026-11-05,2026-11-12,S30,1365.0,Cash,Confirmed,4.6
+1035,136,Manoj Pillai,Female,28,Chennai,Madurai,460.0,Electric Express,21:45,2026-11-08,2026-11-15,S18,810.0,Debit Card,Confirmed,3.9
+1036,137,Meera Iyer,Female,39,Coimbatore,Chennai,510.0,AC Sleeper,09:15,2026-11-05,2026-11-07,S25,1207.5,Net Banking,Confirmed,3.8
+1037,138,Deepa Rao,Female,21,Hyderabad,Bangalore,570.0,Electric Express,17:45,2026-11-01,2026-11-08,S37,1145.0,Debit Card,Confirmed,3.6
+1038,139,Aditya Pillai,Male,49,Hyderabad,Bangalore,570.0,Volvo Multi-Axle,15:45,2026-11-16,2026-11-17,S25,1475.0,Net Banking,Confirmed,4.8
+1039,140,Swati Hegde,Male,43,Bangalore,Chennai,350.0,AC Sleeper,10:00,2026-11-05,2026-11-12,S30,1077.5,Net Banking,Confirmed,3.7
+1040,141,Arjun Menon,Female,42,Chennai,Coimbatore,510.0,Electric Express,22:00,2026-11-03,2026-11-07,S2,1047.5,Credit Card,Confirmed,4.3
+1041,142,Diya Sharma,Male,30,Bangalore,Chennai,350.0,Non-AC Seater,23:15,2026-11-05,2026-11-09,S8,637.5,Debit Card,Confirmed,4.5
+1042,143,Pooja Chopra,Male,28,Chennai,Coimbatore,510.0,AC Sleeper,17:15,2026-11-10,2026-11-15,S25,1157.5,Cash,Confirmed,4.4
+1043,144,Ananya Reddy,Female,61,Chennai,Bangalore,350.0,AC Sleeper,07:30,2026-11-14,2026-11-20,S24,1027.5,Net Banking,Confirmed,4.6
+1044,145,Sneha Pillai,Female,58,Chennai,Madurai,460.0,Non-AC Seater,13:45,2026-11-06,2026-11-12,S34,700.0,Net Banking,Confirmed,4.7
+1045,146,Naveen Kumar,Female,33,Chennai,Bangalore,350.0,Volvo Multi-Axle,23:45,2026-11-08,2026-11-15,S30,1162.5,UPI,Confirmed,4.0
+1046,147,Suresh Nair,Female,31,Coimbatore,Chennai,510.0,Volvo Multi-Axle,22:00,2026-11-09,2026-11-14,S18,1362.5,Credit Card,Cancelled,
+1047,148,Rohan Iyer,Female,49,Hyderabad,Bangalore,570.0,Electric Express,07:30,2026-11-15,2026-11-22,S2,1145.0,Net Banking,Confirmed,4.4
+1048,149,Meera Nambiar,Female,48,Coimbatore,Chennai,510.0,Electric Express,13:30,2026-11-12,2026-11-18,S30,1047.5,Credit Card,Confirmed,3.2
+1049,150,Vikram Menon,Male,65,Bangalore,Hyderabad,570.0,Non-AC Seater,21:30,2026-11-16,2026-11-19,S38,825.0,Credit Card,Confirmed,3.6
+1050,151,Kavya Nair,Female,18,Bangalore,Hyderabad,570.0,Volvo Multi-Axle,09:45,2026-11-02,2026-11-07,S19,4500.0,UPI,Confirmed,4.1
+1051,152,Priya Bose,Female,39,Bangalore,Hyderabad,570.0,AC Sleeper,17:45,2026-11-16,2026-11-17,S5,1315.0,Cash,Confirmed,4.3
+1052,153,Diya Raman,Male,54,Chennai,Coimbatore,510.0,AC Sleeper,12:45,2026-11-04,2026-11-09,S27,1207.5,Net Banking,Confirmed,3.6
+1053,154,Naveen Pillai,Female,54,Bangalore,Chennai,350.0,AC Sleeper,10:15,2026-11-07,2026-11-10,S6,977.5,Cash,Confirmed,3.2
+1054,155,Aarav Pillai,Female,62,Chennai,Madurai,460.0,Volvo Multi-Axle,19:00,2026-11-08,2026-11-11,S19,950.0,Debit Card,Confirmed,4.6
+1055,156,Naveen Singh,Female,25,Hyderabad,Bangalore,570.0,Non-AC Seater,10:30,2026-11-05,2026-11-06,S4,875.0,Cash,Cancelled,
+1056,157,Meera Rao,Male,47,Chennai,Coimbatore,510.0,Electric Express,06:45,2026-11-16,2026-11-20,S6,1047.5,Cash,Confirmed,3.5
+1057,158,Rohan Iyer,Male,61,Chennai,Coimbatore,510.0,AC Sleeper,13:15,2026-11-16,2026-11-21,S29,1207.5,Net Banking,Cancelled,
+1058,159,Priya Verma,Female,40,Bangalore,Kochi,540.0,Volvo Multi-Axle,15:45,2026-11-04,2026-11-11,S11,1550.0,Debit Card,Confirmed,4.3
+1059,160,Aditya Hegde,Male,47,Chennai,Bangalore,350.0,Volvo Multi-Axle,21:00,2026-11-11,2026-11-12,S26,1112.5,Net Banking,Cancelled,
+1060,101,Ishita Patel,Male,51,Coimbatore,Chennai,510.0,Electric Express,22:15,2026-11-02,2026-11-04,S18,1097.5,Net Banking,Confirmed,4.8
+1061,102,Priya Reddy,Male,58,Hyderabad,Bangalore,570.0,Non-AC Seater,07:15,2026-11-01,2026-11-06,S27,875.0,Net Banking,Confirmed,4.9
+1062,103,Karthik Bose,Female,50,Chennai,Coimbatore,510.0,Electric Express,22:15,2026-11-16,2026-11-18,S30,1097.5,Credit Card,Confirmed,4.8
+1063,104,Manoj Raman,Male,35,Bangalore,Kochi,540.0,Volvo Multi-Axle,23:45,2026-11-01,2026-11-04,S20,1550.0,Net Banking,Confirmed,4.1
+1064,105,Kavya Menon,Female,47,Coimbatore,Chennai,510.0,Non-AC Seater,06:30,2026-11-13,2026-11-15,S27,787.5,Net Banking,Confirmed,3.8
+1065,106,Karthik Bose,Male,26,Coimbatore,Chennai,510.0,AC Sleeper,05:15,2026-11-04,2026-11-09,S30,1307.5,Credit Card,Confirmed,3.1
+1066,107,Rajesh Menon,Female,59,Chennai,Bangalore,350.0,Volvo Multi-Axle,22:00,2026-11-11,2026-11-17,S32,1162.5,UPI,Cancelled,
+1067,108,Ananya Joshi,Male,65,Chennai,Bangalore,350.0,Electric Express,14:00,2026-11-04,2026-11-08,S11,757.5,Debit Card,Confirmed,4.6
+1068,109,Meera Sundaram,Female,45,Bangalore,Hyderabad,570.0,Non-AC Seater,07:45,2026-11-06,2026-11-08,S12,925.0,Credit Card,Cancelled,
+1069,110,Priya Nambiar,Male,32,Chennai,Madurai,460.0,Volvo Multi-Axle,19:30,2026-11-09,2026-11-15,S1,1100.0,Credit Card,Cancelled,
+1070,111,Rohan Rao,Female,55,Chennai,Coimbatore,510.0,Electric Express,11:45,2026-11-15,2026-11-22,S20,1047.5,UPI,Confirmed,3.5
+1071,112,Naveen Sundaram,Female,62,Chennai,Coimbatore,510.0,AC Sleeper,06:45,2026-11-09,2026-11-10,S37,1307.5,Credit Card,Confirmed,4.2
+1072,113,Kavya Iyer,Male,57,Chennai,Coimbatore,510.0,Non-AC Seater,06:30,2026-11-02,2026-11-05,S29,737.5,UPI,Confirmed,4.8
+1073,114,Suresh Pillai,Male,30,Bangalore,Hyderabad,570.0,Volvo Multi-Axle,14:30,2026-11-06,2026-11-09,S31,1425.0,Net Banking,Confirmed,4.9
+1074,115,Karthik Iyer,Female,53,Coimbatore,Chennai,510.0,AC Sleeper,08:45,2026-11-01,2026-11-04,S35,1307.5,Debit Card,Confirmed,4.2
+1075,116,Kavya Reddy,Other,32,Chennai,Madurai,460.0,AC Sleeper,19:30,2026-11-08,2026-11-14,S5,970.0,UPI,Confirmed,3.3
+1076,117,Diya Joshi,Female,25,Chennai,Bangalore,350.0,Non-AC Seater,22:45,2026-11-13,2026-11-17,S24,637.5,Credit Card,Cancelled,
+1077,118,Ishita Reddy,Female,57,Bangalore,Kochi,540.0,Volvo Multi-Axle,19:15,2026-11-12,2026-11-14,S29,1450.0,UPI,Confirmed,5.0
+1078,119,Kavya Hegde,Female,21,Bangalore,Kochi,540.0,Volvo Multi-Axle,07:15,2026-11-04,2026-11-11,S30,1500.0,UPI,Cancelled,
+1079,120,Diya Menon,Male,26,Hyderabad,Bangalore,570.0,AC Sleeper,15:15,2026-11-07,2026-11-14,S15,1265.0,UPI,Cancelled,
+1080,121,Rajesh Raman,Male,52,Chennai,Coimbatore,510.0,Non-AC Seater,16:15,2026-11-01,2026-11-03,S1,737.5,Debit Card,Cancelled,
+1081,122,Aarav Nair,Female,21,Bangalore,Hyderabad,570.0,Electric Express,16:00,2026-11-03,2026-11-07,S29,995.0,Cash,Confirmed,3.4
+1082,123,Swati Patel,Female,47,Bangalore,Chennai,350.0,AC Sleeper,20:45,2026-11-13,2026-11-17,S7,1077.5,UPI,Confirmed,3.6
+1083,124,Karthik Verma,Male,35,Coimbatore,Chennai,510.0,Electric Express,18:00,2026-11-15,2026-11-20,S39,1047.5,Cash,Confirmed,4.4
+1084,125,Vikram Pillai,Female,32,Bangalore,Kochi,540.0,Volvo Multi-Axle,15:45,2026-11-13,2026-11-17,S7,1600.0,Debit Card,Confirmed,3.7
+1085,126,Karthik Bose,Male,23,Chennai,Bangalore,350.0,AC Sleeper,09:00,2026-11-04,2026-11-10,S24,1077.5,Cash,Cancelled,
+1086,127,Deepa Menon,Male,44,Coimbatore,Chennai,510.0,Electric Express,16:00,2026-11-10,2026-11-15,S20,947.5,Cash,Cancelled,
+1087,128,Vikram Raman,Female,32,Chennai,Bangalore,350.0,Volvo Multi-Axle,23:15,2026-11-04,2026-11-11,S18,1112.5,Cash,Confirmed,4.9
+1088,129,Swati Chopra,Male,56,Chennai,Coimbatore,510.0,AC Sleeper,15:30,2026-11-09,2026-11-15,S20,1207.5,Credit Card,Confirmed,4.7
+1089,130,Naveen Das,Male,27,Bangalore,Chennai,350.0,AC Sleeper,15:15,2026-11-13,2026-11-17,S30,977.5,Debit Card,Confirmed,4.4
+1090,131,Naveen Chopra,Male,21,Bangalore,Hyderabad,570.0,Non-AC Seater,18:45,2026-11-03,2026-11-06,S29,775.0,Net Banking,Cancelled,
+1091,132,Ishita Kumar,Male,50,Chennai,Bangalore,350.0,Volvo Multi-Axle,20:30,2026-11-04,2026-11-07,S38,1162.5,Credit Card,Confirmed,3.8
+1092,133,Swati Patel,Male,31,Chennai,Coimbatore,510.0,Non-AC Seater,08:00,2026-11-09,2026-11-12,S21,787.5,Net Banking,Confirmed,3.4
+1093,134,Aditya Hegde,Male,50,Coimbatore,Chennai,510.0,AC Sleeper,19:00,2026-11-02,2026-11-06,S2,1307.5,Cash,Confirmed,3.9
+1094,135,Aditya Pillai,Female,25,Bangalore,Kochi,540.0,AC Sleeper,19:30,2026-11-06,2026-11-13,S40,1430.0,Net Banking,Confirmed,4.7
+1095,136,Ananya Pillai,Female,51,Chennai,Bangalore,350.0,Electric Express,10:00,2026-11-11,2026-11-13,S22,857.5,UPI,Cancelled,
+1096,137,Manoj Gupta,Male,40,Coimbatore,Chennai,510.0,Non-AC Seater,11:15,2026-11-04,2026-11-06,S17,787.5,Credit Card,Cancelled,
+1097,138,Rohan Nair,Female,47,Chennai,Madurai,460.0,Volvo Multi-Axle,20:45,2026-11-05,2026-11-09,S5,1050.0,Debit Card,Confirmed,4.2
+1098,139,Kavya Gupta,Male,37,Chennai,Madurai,460.0,Electric Express,07:00,2026-11-02,2026-11-05,S19,710.0,Cash,Cancelled,
+1099,140,Manoj Das,Female,55,Bangalore,Chennai,350.0,Electric Express,21:15,2026-11-11,2026-11-16,S31,807.5,Net Banking,Confirmed,3.2
+1100,141,Suresh Verma,Other,59,Bangalore,Hyderabad,570.0,AC Sleeper,21:15,2026-11-15,2026-11-19,S34,1265.0,Debit Card,Confirmed,4.8
+1101,142,Aditya Pillai,Female,61,Bangalore,Chennai,350.0,Volvo Multi-Axle,17:30,2026-11-11,2026-11-12,S36,1012.5,Cash,Confirmed,4.7
+1102,143,Suresh Verma,Male,40,Chennai,Coimbatore,510.0,Electric Express,17:30,2026-11-03,2026-11-06,S36,997.5,Cash,Confirmed,3.2
+1103,144,Ishita Gupta,Female,19,Coimbatore,Chennai,510.0,Volvo Multi-Axle,11:15,2026-11-07,2026-11-10,S32,1312.5,Credit Card,Confirmed,3.2
+1104,145,Sneha Gupta,Male,60,Coimbatore,Chennai,510.0,Non-AC Seater,10:45,2026-11-05,2026-11-07,S12,887.5,Net Banking,Confirmed,3.7
+1105,146,Ananya Rao,Female,65,Chennai,Madurai,460.0,Non-AC Seater,11:30,2026-11-10,2026-11-17,S31,600.0,Net Banking,Cancelled,
+1106,147,Arjun Joshi,Female,50,Bangalore,Kochi,540.0,Non-AC Seater,06:45,2026-11-05,2026-11-12,S17,900.0,Cash,Confirmed,4.9
+1107,148,Manoj Reddy,Female,23,Bangalore,Hyderabad,570.0,Volvo Multi-Axle,07:15,2026-11-05,2026-11-12,S28,1475.0,Debit Card,Confirmed,4.9
+1108,149,Ishita Patel,Female,50,Coimbatore,Chennai,510.0,Non-AC Seater,05:30,2026-11-03,2026-11-06,S15,887.5,Debit Card,Confirmed,4.6
+1109,150,Karthik Patel,Female,48,Bangalore,Hyderabad,570.0,Electric Express,13:15,2026-11-01,2026-11-02,S2,1145.0,Cash,Confirmed,4.9
+1110,151,Swati Gupta,Female,25,Chennai,Coimbatore,510.0,Non-AC Seater,18:45,2026-11-04,2026-11-05,S16,837.5,UPI,Confirmed,4.7
+1111,152,Priya Chopra,Male,58,Hyderabad,Bangalore,570.0,Non-AC Seater,16:15,2026-11-14,2026-11-15,S40,875.0,Net Banking,Cancelled,
+1112,153,Pooja Verma,Female,22,Bangalore,Chennai,350.0,Electric Express,16:30,2026-11-02,2026-11-08,S25,907.5,Debit Card,Confirmed,4.6
+1113,154,Kavya Iyer,Male,55,Coimbatore,Chennai,510.0,Non-AC Seater,10:45,2026-11-12,2026-11-17,S22,737.5,Credit Card,Confirmed,4.6
+1114,155,Rohan Rao,Male,36,Hyderabad,Bangalore,570.0,AC Sleeper,21:45,2026-11-02,2026-11-05,S20,1265.0,Net Banking,Cancelled,
+1115,156,Rajesh Patel,Male,36,Coimbatore,Chennai,510.0,AC Sleeper,18:45,2026-11-09,2026-11-10,S24,1257.5,Net Banking,Confirmed,3.7
+1116,157,Pooja Bose,Female,41,Chennai,Coimbatore,510.0,AC Sleeper,10:30,2026-11-03,2026-11-07,S39,1307.5,UPI,Confirmed,3.2
+1117,158,Meera Joshi,Female,56,Bangalore,Kochi,540.0,Non-AC Seater,16:45,2026-11-12,2026-11-16,S3,1000.0,UPI,Confirmed,3.2
+1118,159,Aditya Sundaram,Male,19,Bangalore,Hyderabad,570.0,Electric Express,16:30,2026-11-05,2026-11-06,S16,995.0,Cash,Confirmed,3.1
+1119,160,Karthik Rao,Female,41,Chennai,Madurai,460.0,AC Sleeper,13:15,2026-11-12,2026-11-16,S21,920.0,UPI,Confirmed,4.5
+1120,101,Priya Gupta,Female,125,Chennai,Bangalore,350.0,Volvo Multi-Axle,14:45,2026-11-15,2026-11-17,S40,1112.5,UPI,Confirmed,3.3
+1121,102,Rohan Rao,Male,63,Chennai,Madurai,460.0,AC Sleeper,22:30,2026-11-12,2026-11-18,S5,970.0,Credit Card,Confirmed,4.4
+1122,103,Pooja Sundaram,Male,25,Hyderabad,Bangalore,570.0,Non-AC Seater,22:30,2026-11-16,2026-11-17,S24,825.0,Cash,Confirmed,3.3
+1123,104,Rohan Verma,Female,43,Chennai,Madurai,460.0,Electric Express,07:45,2026-11-03,2026-11-05,S21,860.0,Cash,Confirmed,3.7
+1124,105,Deepa Nambiar,Male,26,Bangalore,Kochi,540.0,AC Sleeper,10:30,2026-11-05,2026-11-08,S11,1330.0,Debit Card,Confirmed,4.9
+1125,106,Manoj Joshi,Male,34,Hyderabad,Bangalore,570.0,Volvo Multi-Axle,07:15,2026-11-10,2026-11-15,S35,1375.0,Cash,Cancelled,
+1126,107,Karthik Nair,Female,54,Bangalore,Chennai,350.0,AC Sleeper,13:15,2026-11-02,2026-11-08,S37,927.5,Net Banking,Cancelled,
+1127,108,Swati Sharma,Female,58,Chennai,Coimbatore,510.0,Volvo Multi-Axle,14:45,2026-11-08,2026-11-15,S26,1412.5,UPI,Confirmed,3.3
+1128,109,Ishita Bose,Female,31,Coimbatore,Chennai,510.0,Non-AC Seater,17:15,2026-11-11,2026-11-17,S23,837.5,Cash,Confirmed,4.1
+1129,110,Suresh Iyer,Female,25,Chennai,Coimbatore,510.0,Electric Express,14:45,2026-11-05,2026-11-06,S4,997.5,Net Banking,Cancelled,
+1130,111,Ananya Nair,Female,54,Coimbatore,Chennai,510.0,Non-AC Seater,20:30,2026-11-16,2026-11-21,S30,787.5,UPI,Confirmed,3.2
+1131,112,Aditya Gupta,Female,33,Hyderabad,Bangalore,570.0,Volvo Multi-Axle,20:30,2026-11-02,2026-11-05,S32,1325.0,UPI,Cancelled,
+1132,113,Sneha Pillai,Male,34,Coimbatore,Chennai,510.0,Electric Express,23:15,2026-11-02,2026-11-06,S4,1047.5,Cash,Confirmed,3.6
+1133,114,Aditya Gupta,Female,53,Chennai,Coimbatore,510.0,AC Sleeper,15:30,2026-11-04,2026-11-08,S24,1207.5,Credit Card,Confirmed,4.2
+1134,115,Aditya Gupta,Male,20,Bangalore,Chennai,350.0,Non-AC Seater,09:15,2026-11-16,2026-11-21,S30,687.5,Cash,Confirmed,3.6
+1135,116,Aditya Chopra,Female,55,Coimbatore,Chennai,510.0,Electric Express,16:30,2026-11-16,2026-11-23,S2,1047.5,Net Banking,Confirmed,4.2
+1136,117,Aarav Chopra,Female,34,Hyderabad,Bangalore,570.0,AC Sleeper,17:15,2026-11-06,2026-11-11,S40,1365.0,UPI,Confirmed,4.1
+1137,118,Sneha Singh,Male,46,Coimbatore,Chennai,510.0,Electric Express,18:45,2026-11-14,2026-11-20,S14,997.5,Credit Card,Confirmed,4.0
+1138,119,Deepa Menon,Female,51,Bangalore,Kochi,540.0,Volvo Multi-Axle,22:30,2026-11-15,2026-11-20,S22,1500.0,Cash,Confirmed,4.0
+1139,120,Ananya Kumar,Female,32,Chennai,Coimbatore,510.0,Volvo Multi-Axle,16:30,2026-11-16,2026-11-19,S31,1312.5,UPI,Confirmed,4.1
+1140,121,Deepa Das,Female,40,Bangalore,Hyderabad,570.0,Volvo Multi-Axle,16:45,2026-11-10,2026-11-16,S6,1325.0,Net Banking,Confirmed,3.4
+1141,122,Deepa Kumar,Female,26,Chennai,Bangalore,350.0,Non-AC Seater,12:15,2026-11-02,2026-11-08,S34,637.5,UPI,Confirmed,3.8
+1142,123,Priya Reddy,Male,18,Bangalore,Hyderabad,570.0,Electric Express,14:30,2026-11-16,2026-11-22,S13,1145.0,UPI,Confirmed,4.8
+1143,124,Rohan Nambiar,Male,52,Bangalore,Chennai,350.0,Non-AC Seater,20:15,2026-11-06,2026-11-07,S26,737.5,UPI,Confirmed,3.0
+1144,125,Naveen Chopra,Male,39,Chennai,Coimbatore,510.0,Electric Express,19:30,2026-11-05,2026-11-12,S33,1097.5,UPI,Confirmed,3.7
+1145,126,Arjun Kumar,Male,18,Coimbatore,Chennai,510.0,Volvo Multi-Axle,18:30,2026-11-06,2026-11-11,S26,1312.5,Net Banking,Confirmed,4.3
+1146,127,Pooja Raman,Female,38,Hyderabad,Bangalore,570.0,AC Sleeper,13:30,2026-11-13,2026-11-15,S29,1315.0,Cash,Confirmed,4.4
+1147,128,Aarav Kumar,Female,62,Hyderabad,Bangalore,570.0,AC Sleeper,17:30,2026-11-15,2026-11-18,S11,1215.0,Debit Card,Confirmed,3.7
+1148,129,Ananya Iyer,Male,48,Bangalore,Hyderabad,570.0,Electric Express,20:15,2026-11-14,2026-11-20,S36,1095.0,Cash,Confirmed,4.7
+1149,130,Rohan Gupta,Female,51,Coimbatore,Chennai,510.0,AC Sleeper,21:15,2026-11-02,2026-11-09,S36,1157.5,Cash,Cancelled,
+1150,131,Karthik Nair,Female,51,Chennai,Madurai,460.0,AC Sleeper,19:00,2026-11-16,2026-11-17,S33,920.0,Credit Card,Confirmed,4.0
+1151,132,Arjun Nambiar,Male,53,Chennai,Madurai,460.0,Volvo Multi-Axle,11:00,2026-11-13,2026-11-16,S1,950.0,Net Banking,Confirmed,3.7
+1152,133,Rohan Hegde,Male,22,Chennai,Madurai,460.0,AC Sleeper,18:30,2026-11-14,2026-11-16,S9,970.0,Net Banking,Confirmed,4.7
+1153,134,Aditya Das,Male,61,Bangalore,Hyderabad,570.0,Volvo Multi-Axle,21:15,2026-11-06,2026-11-11,S26,1325.0,UPI,Confirmed,4.5
+1154,135,Meera Rao,Female,52,Bangalore,Kochi,540.0,Non-AC Seater,13:15,2026-11-15,2026-11-18,S10,900.0,UPI,Confirmed,4.6
+1155,136,Ishita Chopra,Male,33,Hyderabad,Bangalore,570.0,AC Sleeper,06:15,2026-11-02,2026-11-06,S39,1215.0,Net Banking,Confirmed,3.9
+1156,137,Deepa Singh,Male,26,Chennai,Coimbatore,510.0,Non-AC Seater,09:15,2026-11-11,2026-11-13,S20,837.5,Debit Card,Confirmed,3.6
+1157,138,Deepa Nambiar,Male,58,Bangalore,Kochi,540.0,Electric Express,21:30,2026-11-12,2026-11-18,S25,1090.0,Net Banking,Confirmed,3.3
+1158,139,Aditya Nair,Female,33,Hyderabad,Bangalore,570.0,Volvo Multi-Axle,18:45,2026-11-15,2026-11-16,S36,1375.0,Cash,Cancelled,
+1159,140,Karthik Das,Male,34,Hyderabad,Bangalore,570.0,Volvo Multi-Axle,07:15,2026-11-15,2026-11-22,S24,1325.0,Debit Card,Confirmed,3.8
+1160,141,Swati Chopra,Male,22,Hyderabad,Bangalore,570.0,Non-AC Seater,14:00,2026-11-07,2026-11-14,S22,925.0,Credit Card,Confirmed,4.9
+1161,142,Sneha Bose,Male,62,Hyderabad,Bangalore,570.0,Electric Express,17:45,2026-11-11,2026-11-18,S19,1045.0,Debit Card,Cancelled,
+1162,143,Meera Kumar,Female,50,Chennai,Madurai,460.0,Electric Express,11:30,2026-11-16,2026-11-23,S21,710.0,Net Banking,Confirmed,3.1
+1163,144,Ananya Raman,Male,34,Bangalore,Kochi,540.0,Volvo Multi-Axle,17:15,2026-11-07,2026-11-10,S15,1500.0,Cash,Confirmed,4.3
+1164,145,Suresh Kumar,Female,64,Chennai,Madurai,460.0,Electric Express,22:45,2026-11-12,2026-11-14,S9,760.0,Cash,Confirmed,5.0
+1165,146,Diya Gupta,Male,22,Bangalore,Chennai,350.0,AC Sleeper,07:15,2026-11-05,2026-11-12,S15,1077.5,Credit Card,Confirmed,4.0
+1166,147,Kavya Patel,Female,60,Chennai,Madurai,460.0,AC Sleeper,21:30,2026-11-14,2026-11-15,S2,870.0,Debit Card,Cancelled,
+1167,148,Aarav Gupta,Female,29,Chennai,Bangalore,350.0,AC Sleeper,21:30,2026-11-08,2026-11-10,S40,977.5,Debit Card,Confirmed,4.6
+1168,149,Rohan Sundaram,Female,47,Hyderabad,Bangalore,570.0,Non-AC Seater,07:45,2026-11-03,2026-11-09,S3,875.0,Net Banking,Confirmed,4.1
+1169,150,Diya Sharma,Male,23,Chennai,Madurai,460.0,Electric Express,12:15,2026-11-04,2026-11-09,S3,810.0,Net Banking,Cancelled,
+1170,151,Rajesh Patel,Male,61,Chennai,Coimbatore,510.0,AC Sleeper,23:15,2026-11-11,2026-11-12,S14,1207.5,UPI,Confirmed,3.6
+1171,152,Naveen Iyer,Female,61,Coimbatore,Chennai,510.0,Electric Express,06:00,2026-11-03,2026-11-08,S23,997.5,Credit Card,Confirmed,4.7
+1172,153,Suresh Chopra,Female,38,Bangalore,Chennai,350.0,Volvo Multi-Axle,22:45,2026-11-16,2026-11-18,S23,1162.5,Credit Card,Confirmed,4.4
+1173,154,Aditya Verma,Female,33,Chennai,Bangalore,350.0,AC Sleeper,17:30,2026-11-05,2026-11-09,S10,1027.5,UPI,Confirmed,3.2
+1174,155,Meera Rao,Female,35,Chennai,Bangalore,350.0,Non-AC Seater,22:45,2026-11-06,2026-11-10,S29,587.5,UPI,Confirmed,3.2
+1175,156,Deepa Verma,Other,56,Coimbatore,Chennai,510.0,Electric Express,07:15,2026-11-10,2026-11-14,S25,947.5,Cash,Cancelled,
+1176,157,Pooja Das,Male,26,Chennai,Coimbatore,510.0,Volvo Multi-Axle,10:45,2026-11-16,2026-11-18,S5,1362.5,Net Banking,Confirmed,3.6
+1177,158,Rohan Sundaram,Female,33,Chennai,Madurai,460.0,Non-AC Seater,05:45,2026-11-04,2026-11-06,S20,700.0,Cash,Confirmed,3.8
+1178,159,Suresh Rao,Female,45,Bangalore,Hyderabad,570.0,Volvo Multi-Axle,10:45,2026-11-07,2026-11-11,S21,1425.0,Debit Card,Confirmed,4.5
+1179,160,Priya Nambiar,Male,38,Bangalore,Kochi,540.0,Volvo Multi-Axle,11:15,2026-11-12,2026-11-13,S37,1600.0,UPI,Cancelled,
+1180,101,Arjun Singh,Female,36,Chennai,Bangalore,350.0,Electric Express,12:30,2026-11-05,2026-11-11,S20,907.5,Net Banking,Confirmed,4.6
+1181,102,Rohan Rao,Female,55,Bangalore,Kochi,540.0,Electric Express,07:00,2026-11-12,2026-11-18,S35,1090.0,Debit Card,Confirmed,3.3
+1182,103,Swati Patel,Female,39,Bangalore,Kochi,540.0,AC Sleeper,21:15,2026-11-04,2026-11-07,S15,1330.0,Debit Card,Confirmed,3.8
+1183,104,Naveen Gupta,Male,40,Bangalore,Chennai,350.0,Electric Express,08:15,2026-11-10,2026-11-14,S6,757.5,Debit Card,Confirmed,3.7
+1184,105,Vikram Gupta,Female,40,Chennai,Madurai,460.0,AC Sleeper,14:00,2026-11-15,2026-11-18,S5,1020.0,UPI,Confirmed,4.7
+1185,106,Sneha Nair,Male,51,Bangalore,Hyderabad,570.0,Non-AC Seater,17:15,2026-11-14,2026-11-18,S15,875.0,Net Banking,Confirmed,3.8
+1186,107,Swati Singh,Female,55,Bangalore,Kochi,540.0,Electric Express,07:00,2026-11-07,2026-11-09,S18,1090.0,Credit Card,Cancelled,
+1187,108,Kavya Menon,Male,47,Chennai,Bangalore,350.0,Volvo Multi-Axle,17:00,2026-11-11,2026-11-16,S25,1162.5,Debit Card,Confirmed,4.7
+1188,109,Swati Nair,Female,57,Chennai,Bangalore,350.0,Non-AC Seater,08:15,2026-11-04,2026-11-06,S20,687.5,Credit Card,Confirmed,4.0
+1189,110,Ishita Chopra,Male,54,Bangalore,Kochi,540.0,Electric Express,10:15,2026-11-16,2026-11-22,S35,1140.0,Debit Card,Confirmed,3.3
+1190,111,Suresh Rao,Male,40,Bangalore,Chennai,350.0,Electric Express,22:45,2026-11-07,2026-11-14,S25,807.5,Net Banking,Confirmed,3.8
+1191,112,Arjun Bose,Male,23,Bangalore,Chennai,350.0,Non-AC Seater,22:30,2026-11-02,2026-11-05,S15,687.5,Net Banking,Confirmed,4.1
+1192,113,Priya Hegde,Male,54,Chennai,Bangalore,350.0,Volvo Multi-Axle,22:15,2026-11-02,2026-11-09,S29,1112.5,UPI,Confirmed,4.5
+1193,114,Ananya Joshi,Male,46,Chennai,Coimbatore,510.0,Volvo Multi-Axle,12:15,2026-11-15,2026-11-22,S8,1262.5,Debit Card,Cancelled,
+1194,115,Swati Pillai,Male,57,Bangalore,Hyderabad,570.0,Non-AC Seater,22:30,2026-11-02,2026-11-07,S23,825.0,Cash,Cancelled,
+1195,116,Pooja Menon,Female,36,Chennai,Coimbatore,510.0,AC Sleeper,09:15,2026-11-14,2026-11-15,S18,1207.5,Credit Card,Confirmed,4.4
+1196,117,Ananya Das,Female,27,Chennai,Coimbatore,510.0,Electric Express,17:30,2026-11-15,2026-11-16,S6,1097.5,Net Banking,Confirmed,4.9
+1197,118,Suresh Nambiar,Male,64,Chennai,Bangalore,350.0,Electric Express,17:15,2026-11-03,2026-11-10,S35,857.5,Credit Card,Confirmed,4.0
+1198,119,Suresh Joshi,Female,53,Bangalore,Hyderabad,570.0,Electric Express,19:00,2026-11-02,2026-11-03,S7,1095.0,Credit Card,Confirmed,3.9
+1199,120,Aarav Pillai,Male,62,Bangalore,Hyderabad,570.0,Volvo Multi-Axle,13:00,2026-11-09,2026-11-10,S24,1375.0,Credit Card,Confirmed,3.1
+1200,121,Meera Iyer,Female,59,Chennai,Bangalore,350.0,AC Sleeper,09:15,2026-11-07,2026-11-11,S5,927.5,Net Banking,Cancelled,
+1201,122,Aarav Sharma,Female,25,Bangalore,Kochi,540.0,Non-AC Seater,07:00,2026-11-03,2026-11-05,S25,1000.0,Debit Card,Confirmed,3.7
+1202,123,Meera Raman,Female,26,Bangalore,Hyderabad,570.0,AC Sleeper,11:15,2026-11-06,2026-11-10,S23,1215.0,Cash,Confirmed,4.4
+1203,124,Vikram Verma,Male,26,Chennai,Bangalore,350.0,Electric Express,12:30,2026-11-14,2026-11-17,S9,857.5,Credit Card,Confirmed,4.1
+1204,125,Swati Chopra,Female,62,Bangalore,Chennai,350.0,Volvo Multi-Axle,14:00,2026-11-07,2026-11-13,S26,1062.5,Net Banking,Confirmed,3.8
+1205,126,Ananya Bose,Male,51,Bangalore,Chennai,350.0,Volvo Multi-Axle,18:30,2026-11-05,2026-11-09,S37,1112.5,Credit Card,Cancelled,
+1206,127,Priya Verma,Male,55,Chennai,Bangalore,350.0,AC Sleeper,17:30,2026-11-07,2026-11-08,S4,1027.5,Net Banking,Cancelled,
+1207,128,Ishita Das,Male,58,Bangalore,Hyderabad,570.0,Volvo Multi-Axle,11:15,2026-11-10,2026-11-11,S33,1325.0,Debit Card,Cancelled,
+1208,129,Aditya Nambiar,Male,37,Bangalore,Kochi,540.0,Non-AC Seater,08:45,2026-11-08,2026-11-09,S28,850.0,Cash,Cancelled,
+1209,130,Diya Joshi,Male,25,Bangalore,Chennai,350.0,Non-AC Seater,21:30,2026-11-06,2026-11-10,S23,587.5,Debit Card,Confirmed,3.3
+1210,131,Rajesh Reddy,Male,39,Bangalore,Kochi,540.0,Volvo Multi-Axle,07:45,2026-11-09,2026-11-15,S37,1450.0,Cash,Confirmed,3.7
+1211,132,Priya Nambiar,Male,41,Bangalore,Hyderabad,570.0,Volvo Multi-Axle,05:00,2026-11-04,2026-11-06,S33,1325.0,Credit Card,Confirmed,3.1
+1212,133,Kavya Das,Male,29,Bangalore,Chennai,350.0,Electric Express,15:30,2026-11-11,2026-11-13,S27,807.5,Cash,Confirmed,3.7
+1213,134,Manoj Patel,Male,32,Bangalore,Chennai,350.0,Electric Express,14:30,2026-11-15,2026-11-22,S19,757.5,Cash,Confirmed,3.9
+1214,135,Kavya Singh,Female,54,Chennai,Coimbatore,510.0,Non-AC Seater,11:15,2026-11-12,2026-11-17,S32,887.5,UPI,Confirmed,4.9
+1215,136,Aarav Iyer,Female,58,Bangalore,Chennai,350.0,Volvo Multi-Axle,08:15,2026-11-13,2026-11-20,S20,1012.5,Credit Card,Cancelled,
+1216,137,Ishita Bose,Male,27,Chennai,Coimbatore,510.0,AC Sleeper,18:30,2026-11-08,2026-11-15,S34,1157.5,UPI,Confirmed,4.2
+1217,138,Manoj Raman,Female,22,Bangalore,Chennai,350.0,Electric Express,15:45,2026-11-08,2026-11-11,S17,807.5,Debit Card,Confirmed,3.9
+1218,139,Ananya Verma,Male,26,Chennai,Bangalore,350.0,Non-AC Seater,15:45,2026-11-06,2026-11-10,S30,587.5,Cash,Confirmed,3.7
+1219,140,Vikram Rao,Female,47,Chennai,Coimbatore,510.0,AC Sleeper,06:15,2026-11-06,2026-11-13,S20,1157.5,Credit Card,Confirmed,3.2
+1220,141,Ananya Sundaram,Female,50,Bangalore,Chennai,350.0,Volvo Multi-Axle,19:15,2026-11-06,2026-11-07,S26,1112.5,Net Banking,Confirmed,3.2
+1221,142,Karthik Reddy,Male,21,Hyderabad,Bangalore,570.0,Non-AC Seater,23:30,2026-11-13,2026-11-16,S6,825.0,UPI,Confirmed,5.0
+1222,143,Vikram Rao,Male,23,Coimbatore,Chennai,510.0,AC Sleeper,23:45,2026-11-15,2026-11-16,S11,1157.5,Net Banking,Confirmed,3.1
+1223,144,Ishita Nair,Female,31,Bangalore,Hyderabad,570.0,Volvo Multi-Axle,12:30,2026-11-15,2026-11-17,S3,1425.0,Net Banking,Confirmed,4.8
+1224,145,Priya Patel,Male,35,Bangalore,Kochi,540.0,Non-AC Seater,12:00,2026-11-07,2026-11-13,S34,1000.0,Debit Card,Confirmed,4.0
+1225,146,Priya Sundaram,Other,50,Coimbatore,Chennai,510.0,Electric Express,12:00,2026-11-06,2026-11-07,S21,1047.5,UPI,Confirmed,4.6
+1226,147,Priya Gupta,Female,55,Hyderabad,Bangalore,570.0,Non-AC Seater,13:00,2026-11-08,2026-11-14,S16,775.0,Cash,Confirmed,4.7
+1227,148,Aditya Sundaram,Male,29,Hyderabad,Bangalore,570.0,Volvo Multi-Axle,23:15,2026-11-01,2026-11-07,S23,1425.0,Credit Card,Cancelled,
+1228,149,Priya Hegde,Female,29,Chennai,Madurai,460.0,AC Sleeper,12:00,2026-11-02,2026-11-04,S39,870.0,Net Banking,Cancelled,
+1229,150,Aarav Menon,Male,26,Coimbatore,Chennai,510.0,Non-AC Seater,23:15,2026-11-02,2026-11-03,S10,837.5,Cash,Confirmed,4.7
+1230,151,Rohan Sundaram,Female,55,Chennai,Bangalore,350.0,Volvo Multi-Axle,18:45,2026-11-11,2026-11-13,S11,1112.5,Credit Card,Confirmed,4.4
+1231,152,Deepa Chopra,Female,32,Bangalore,Hyderabad,570.0,Electric Express,05:45,2026-11-10,2026-11-12,S12,1095.0,UPI,Cancelled,
+1232,153,Pooja Chopra,Female,57,Hyderabad,Bangalore,570.0,AC Sleeper,12:30,2026-11-05,2026-11-08,S5,1365.0,Credit Card,Confirmed,4.3
+1233,154,Rohan Menon,Female,18,Chennai,Coimbatore,510.0,Non-AC Seater,08:00,2026-11-03,2026-11-06,S17,787.5,Net Banking,Confirmed,3.9
+1234,155,Ishita Nair,Female,49,Bangalore,Kochi,540.0,Volvo Multi-Axle,23:15,2026-11-04,2026-11-11,S31,1600.0,Net Banking,Confirmed,3.1
+1235,156,Diya Joshi,Male,38,Chennai,Coimbatore,510.0,AC Sleeper,10:00,2026-11-11,2026-11-13,S25,1157.5,UPI,Cancelled,
+1236,157,Suresh Chopra,Female,63,Bangalore,Chennai,350.0,Electric Express,08:30,2026-11-14,2026-11-16,S4,807.5,Credit Card,Confirmed,3.8
+1237,158,Deepa Hegde,Female,60,Chennai,Coimbatore,510.0,Volvo Multi-Axle,23:45,2026-11-04,2026-11-05,S26,1312.5,UPI,Confirmed,3.7
+1238,159,Ishita Verma,Female,60,Chennai,Madurai,460.0,Non-AC Seater,14:00,2026-11-01,2026-11-03,S11,550.0,UPI,Confirmed,3.6
+1239,160,Aditya Bose,Female,60,Chennai,Coimbatore,510.0,AC Sleeper,16:15,2026-11-06,2026-11-09,S25,1307.5,UPI,Confirmed,3.5
+1240,101,Arjun Kumar,Male,35,Bangalore,Chennai,350.0,Non-AC Seater,22:45,2026-11-03,2026-11-09,S23,587.5,Credit Card,Cancelled,
+1241,102,Deepa Patel,Female,51,Bangalore,Kochi,540.0,Electric Express,17:00,2026-11-16,2026-11-19,S6,1140.0,Cash,Cancelled,
+1242,103,Manoj Nambiar,Male,25,Chennai,Madurai,460.0,Non-AC Seater,09:00,2026-11-07,2026-11-14,S13,600.0,UPI,Confirmed,5.0
+1243,104,Ishita Singh,Male,56,Chennai,Coimbatore,510.0,Volvo Multi-Axle,17:30,2026-11-03,2026-11-07,S36,1262.5,Cash,Confirmed,3.9
+1244,105,Aarav Chopra,Female,25,Bangalore,Kochi,540.0,Non-AC Seater,08:30,2026-11-04,2026-11-05,S37,900.0,Debit Card,Cancelled,
+1245,106,Ishita Kumar,Female,59,Chennai,Madurai,460.0,Electric Express,09:45,2026-11-06,2026-11-09,S26,710.0,Net Banking,Confirmed,4.8
+1246,107,Suresh Iyer,Male,65,Chennai,Madurai,460.0,Volvo Multi-Axle,14:30,2026-11-01,2026-11-04,S20,1050.0,UPI,Confirmed,4.9
+1247,108,Ananya Raman,Female,65,Chennai,Madurai,460.0,Volvo Multi-Axle,11:45,2026-11-14,2026-11-19,S6,1050.0,Net Banking,Confirmed,4.5
+1248,109,Manoj Sundaram,Male,50,Bangalore,Hyderabad,570.0,AC Sleeper,23:00,2026-11-13,2026-11-15,S34,1315.0,Credit Card,Confirmed,4.8
+1249,110,Vikram Patel,Male,20,Chennai,Madurai,460.0,AC Sleeper,19:45,2026-11-07,2026-11-10,S24,970.0,UPI,Confirmed,3.5
+1250,111,Priya Chopra,Female,29,Chennai,Madurai,460.0,Volvo Multi-Axle,07:30,2026-11-06,2026-11-13,S17,1050.0,Net Banking,Confirmed,3.1
+1251,112,Naveen Singh,Male,59,Hyderabad,Bangalore,570.0,Non-AC Seater,05:45,2026-11-14,2026-11-19,S2,875.0,Credit Card,Confirmed,4.2
+1252,113,Aarav Iyer,Female,56,Chennai,Coimbatore,510.0,Volvo Multi-Axle,19:30,2026-11-13,2026-11-20,S23,1412.5,Net Banking,Confirmed,3.6
+1253,114,Manoj Chopra,Female,55,Chennai,Bangalore,350.0,AC Sleeper,20:00,2026-11-10,2026-11-13,S7,1027.5,Debit Card,Confirmed,4.3
+1254,115,Rajesh Kumar,Female,30,Bangalore,Hyderabad,570.0,Non-AC Seater,09:00,2026-11-13,2026-11-19,S21,775.0,Debit Card,Confirmed,3.5
+1255,116,Ishita Das,Female,65,Bangalore,Chennai,350.0,Non-AC Seater,20:30,2026-11-08,2026-11-14,S35,687.5,Debit Card,Cancelled,
+1256,117,Pooja Hegde,Male,36,Chennai,Bangalore,350.0,Electric Express,10:30,2026-11-09,2026-11-15,S36,807.5,Credit Card,Confirmed,3.7
+1257,118,Meera Pillai,Female,41,Chennai,Coimbatore,510.0,Volvo Multi-Axle,23:00,2026-11-04,2026-11-08,S4,1412.5,Credit Card,Confirmed,4.0
+1258,119,Aditya Gupta,Female,44,Bangalore,Chennai,350.0,Non-AC Seater,23:45,2026-11-07,2026-11-10,S27,637.5,Debit Card,Confirmed,4.7
+1259,120,Pooja Verma,Female,39,Bangalore,Hyderabad,570.0,Volvo Multi-Axle,11:15,2026-11-01,2026-11-05,S18,1325.0,Credit Card,Cancelled,
+1260,121,Priya Verma,Male,57,Bangalore,Kochi,540.0,Electric Express,05:00,2026-11-14,2026-11-18,S25,1240.0,Credit Card,Cancelled,
+1261,122,Kavya Sharma,Female,51,Hyderabad,Bangalore,570.0,AC Sleeper,14:15,2026-11-08,2026-11-10,S23,1215.0,Net Banking,Confirmed,4.0
+1262,123,Meera Nair,Male,20,Chennai,Coimbatore,510.0,Volvo Multi-Axle,15:45,2026-11-11,2026-11-15,S9,1412.5,Credit Card,Confirmed,3.3
+1263,124,Aditya Sharma,Male,32,Bangalore,Hyderabad,570.0,Non-AC Seater,06:45,2026-11-06,2026-11-07,S24,775.0,Cash,Confirmed,4.2
+1264,125,Swati Patel,Male,59,Bangalore,Chennai,350.0,AC Sleeper,08:30,2026-11-14,2026-11-18,S25,927.5,Credit Card,Confirmed,3.4
+1265,126,Aarav Joshi,Female,60,Chennai,Bangalore,350.0,Volvo Multi-Axle,21:00,2026-11-14,2026-11-21,S7,1062.5,UPI,Confirmed,4.6
+1266,127,Priya Singh,Male,34,Hyderabad,Bangalore,570.0,Volvo Multi-Axle,22:45,2026-11-10,2026-11-12,S3,1475.0,Net Banking,Confirmed,3.7
+1267,128,Aarav Sharma,Male,25,Chennai,Madurai,460.0,Non-AC Seater,13:15,2026-11-03,2026-11-09,S7,550.0,Debit Card,Confirmed,3.5
+1268,129,Diya Reddy,Male,20,Chennai,Coimbatore,510.0,Volvo Multi-Axle,08:00,2026-11-14,2026-11-20,S8,1362.5,Credit Card,Confirmed,4.3
+1269,130,Pooja Menon,Female,46,Chennai,Coimbatore,510.0,AC Sleeper,17:45,2026-11-11,2026-11-13,S8,1257.5,Debit Card,Confirmed,4.7
+1270,131,Priya Pillai,Male,25,Bangalore,Hyderabad,570.0,AC Sleeper,20:45,2026-11-04,2026-11-08,S38,1265.0,Cash,Confirmed,3.8
+1271,132,Kavya Chopra,Male,61,Bangalore,Hyderabad,570.0,Electric Express,06:00,2026-11-04,2026-11-08,S29,1145.0,Debit Card,Confirmed,3.0
+1272,133,Manoj Nambiar,Male,60,Coimbatore,Chennai,510.0,AC Sleeper,17:15,2026-11-08,2026-11-12,S23,1307.5,Cash,Cancelled,
+1273,134,Diya Sharma,Male,50,Chennai,Madurai,460.0,Electric Express,15:15,2026-11-03,2026-11-10,S32,760.0,Debit Card,Confirmed,3.1
+1274,135,Ananya Hegde,Female,43,Hyderabad,Bangalore,570.0,AC Sleeper,19:00,2026-11-15,2026-11-22,S37,1365.0,Net Banking,Confirmed,3.6
+1275,136,Priya Sharma,Male,43,Bangalore,Kochi,540.0,AC Sleeper,14:15,2026-11-03,2026-11-10,S39,1330.0,Debit Card,Confirmed,3.7
+1276,137,Diya Iyer,Female,39,Chennai,Madurai,460.0,Volvo Multi-Axle,05:30,2026-11-04,2026-11-05,S15,1100.0,Debit Card,Confirmed,4.1
+1277,138,Kavya Reddy,Male,28,Chennai,Madurai,460.0,Non-AC Seater,11:15,2026-11-04,2026-11-07,S40,700.0,Net Banking,Confirmed,3.4
+1278,139,Vikram Menon,Male,44,Bangalore,Chennai,350.0,AC Sleeper,21:15,2026-11-15,2026-11-21,S38,1077.5,UPI,Confirmed,4.1
+1279,140,Diya Hegde,Female,55,Chennai,Madurai,460.0,Non-AC Seater,15:45,2026-11-05,2026-11-06,S25,600.0,Cash,Confirmed,4.8
+1280,141,Ananya Kumar,Female,39,Chennai,Coimbatore,510.0,Electric Express,21:30,2026-11-05,2026-11-09,S39,997.5,Debit Card,Cancelled,
+1281,142,Deepa Singh,Male,31,Chennai,Coimbatore,510.0,Volvo Multi-Axle,15:00,2026-11-06,2026-11-11,S35,1312.5,Cash,Confirmed,4.0
+1282,143,Naveen Pillai,Female,45,Bangalore,Chennai,350.0,AC Sleeper,06:15,2026-11-13,2026-11-15,S4,927.5,Credit Card,Confirmed,5.0
+1283,144,Rajesh Raman,Male,62,Chennai,Coimbatore,510.0,Non-AC Seater,08:15,2026-11-12,2026-11-19,S29,737.5,Net Banking,Cancelled,
+1284,145,Ananya Gupta,Female,62,Bangalore,Chennai,350.0,Electric Express,22:00,2026-11-14,2026-11-21,S21,907.5,Debit Card,Confirmed,3.4
+1285,146,Arjun Iyer,Female,55,Hyderabad,Bangalore,570.0,Non-AC Seater,10:15,2026-11-15,2026-11-17,S5,875.0,UPI,Cancelled,
+1286,147,Aditya Patel,Female,35,Chennai,Coimbatore,510.0,Non-AC Seater,19:15,2026-11-09,2026-11-10,S22,787.5,Credit Card,Confirmed,4.9
+1287,148,Swati Patel,Female,49,Coimbatore,Chennai,510.0,AC Sleeper,07:15,2026-11-08,2026-11-10,S34,1257.5,Cash,Confirmed,4.1
+1288,149,Rohan Sundaram,Male,31,Coimbatore,Chennai,510.0,Volvo Multi-Axle,21:45,2026-11-10,2026-11-12,S40,1362.5,UPI,Cancelled,
+1289,150,Sneha Sundaram,Female,33,Hyderabad,Bangalore,570.0,AC Sleeper,17:30,2026-11-13,2026-11-20,S8,1315.0,Debit Card,Cancelled,
+1290,151,Aarav Gupta,Female,50,Chennai,Madurai,460.0,Electric Express,15:00,2026-11-10,2026-11-16,S13,710.0,Credit Card,Confirmed,4.9
+1291,152,Deepa Hegde,Male,58,Chennai,Bangalore,350.0,Non-AC Seater,11:45,2026-11-14,2026-11-21,S7,637.5,Credit Card,Confirmed,3.0
+1292,153,Suresh Patel,Male,22,Bangalore,Chennai,350.0,Non-AC Seater,13:45,2026-11-03,2026-11-08,S15,687.5,Net Banking,Confirmed,4.3
+1293,154,Ishita Menon,Male,42,Chennai,Bangalore,350.0,AC Sleeper,16:00,2026-11-02,2026-11-08,S5,927.5,Debit Card,Confirmed,4.2
+1294,155,Meera Rao,Female,43,Bangalore,Chennai,350.0,Electric Express,22:30,2026-11-08,2026-11-10,S26,807.5,Debit Card,Confirmed,4.4
+1295,156,Kavya Sharma,Male,25,Bangalore,Chennai,350.0,AC Sleeper,16:15,2026-11-03,2026-11-06,S14,1077.5,Cash,Confirmed,3.3
+1296,157,Pooja Iyer,Female,30,Chennai,Bangalore,350.0,Non-AC Seater,07:30,2026-11-15,2026-11-21,S36,587.5,Debit Card,Confirmed,3.2
+1297,158,Naveen Bose,Female,40,Bangalore,Hyderabad,570.0,Non-AC Seater,11:30,2026-11-10,2026-11-15,S5,775.0,Net Banking,Confirmed,3.7
+1298,159,Meera Nambiar,Male,54,Coimbatore,Chennai,510.0,Volvo Multi-Axle,12:15,2026-11-06,2026-11-07,S21,1412.5,Debit Card,Confirmed,4.7
+1299,160,Karthik Menon,Female,47,Chennai,Madurai,460.0,Volvo Multi-Axle,10:00,2026-11-16,2026-11-21,S7,1050.0,Credit Card,Confirmed,4.8
+1300,101,Vikram Kumar,Other,58,Chennai,Bangalore,350.0,AC Sleeper,23:45,2026-11-01,2026-11-08,S38,927.5,Credit Card,Cancelled,
+1006,107,Deepa Iyer,Female,21,Hyderabad,Bangalore,570.0,AC Sleeper,11:30,2026-11-13,2026-11-16,S5,1315.0,Net Banking,Confirmed,3.8
+1013,114,Aarav Verma,Male,32,Chennai,Bangalore,350.0,AC Sleeper,13:45,2026-11-03,2026-11-08,S16,1027.5,Cash,Confirmed,3.3

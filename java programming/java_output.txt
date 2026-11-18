@@ -1,0 +1,61 @@
+============================================================================
+   PUBLIC TRANSPORT MANAGEMENT & PASSENGER TRAVEL ANALYSIS SYSTEM
+   JAVA PROGRAMMING EXECUTION OUTPUT (25ITT32)
+============================================================================
+
+[STEP 1] Initializing Fleet, Routes, and Bus Schedules...
+   [301] Bangalore  -> Chennai    | Bus: KA-01-F-1001 (AC Sleeper) | Date: 2026-11-20 | Dep: 21:00 | Fare: ₹850.00 | Avail: 28/30
+   [302] Chennai    -> Bangalore  | Bus: TN-09-E-2002 (Non-AC Seater) | Date: 2026-11-20 | Dep: 07:30 | Fare: ₹450.00 | Avail: 45/45
+   [303] Bangalore  -> Hyderabad  | Bus: TS-07-H-3003 (Volvo Multi-Axle) | Date: 2026-11-21 | Dep: 20:00 | Fare: ₹1100.00 | Avail: 34/36
+   [304] Hyderabad  -> Bangalore  | Bus: KL-01-C-4004 (Electric Express) | Date: 2026-11-21 | Dep: 21:30 | Fare: ₹950.00 | Avail: 32/32
+   [305] Chennai    -> Coimbatore | Bus: KA-05-D-5005 (Volvo Multi-Axle) | Date: 2026-11-22 | Dep: 22:00 | Fare: ₹1050.00 | Avail: 40/40
+
+[STEP 2] Searching Schedules for 'Bangalore' -> 'Chennai'...
+   Found: [301] Bangalore  -> Chennai    | Bus: KA-01-F-1001 (AC Sleeper) | Date: 2026-11-20 | Dep: 21:00 | Fare: ₹850.00 | Avail: 28/30
+
+[STEP 3] Performing Passenger Ticket Booking...
+   Booking Confirmed: TCK-0301-505 for Seat A1 on Bus KA-01-F-1001
+====================================================
+             ELECTRONIC BUS PASSENGER TICKET        
+====================================================
+Ticket No   : TCK-0301-505
+Booking ID  : 505
+Issue Date  : 2026-11-17
+Route       : Bangalore -> Chennai
+Bus Number  : KA-01-F-1001 (AC Sleeper)
+Travel Date : 2026-11-20 | Departure: 21:00
+Seat Number : A1
+Total Fare  : ₹850.00
+Status      : Confirmed
+Digital QR  : [QR-TCK-0301-505-Bangalore-A1]
+====================================================
+
+   Booking Confirmed: TCK-0301-506 for Seat A2
+   Booking Confirmed: TCK-0303-507 for Seat V10 on Volvo
+
+[STEP 4] Testing Seat Availability Protection (Exception Handling)...
+   Attempting to double-book already taken Seat 'A1' on Schedule 301...
+   [CAUGHT EXPECTED EXCEPTION]: Seat 'A1' on Schedule 301 is unavailable or bus is full!
+
+[STEP 5] Performing Ticket Cancellation...
+   Cancelling Booking #501 (Seat A1)...
+   Booking #501 cancelled. Seat A1 is now re-released and available.
+
+[STEP 6] Running Java 8+ Stream API Analytical Reports...
+--- Route-wise Revenue Generated ---
+   Bangalore -> Hyderabad              : ₹  3,300.00
+   Bangalore -> Chennai                : ₹  2,550.00
+   TOTAL REVENUE                     : ₹  5,850.00
+
+--- Bus Schedule Occupancy Percentage ---
+   TS-07-H-3003 [Bangalore->Hyderabad]           :   8.33%
+   KA-01-F-1001 [Bangalore->Chennai]             :  10.00%
+   TN-09-E-2002 [Chennai->Bangalore]             :   0.00%
+   KL-01-C-4004 [Hyderabad->Bangalore]           :   0.00%
+   KA-05-D-5005 [Chennai->Coimbatore]            :   0.00%
+
+[STEP 7] Running Multithreaded Synchronized Booking Simulation...
+   [Thread 2]: Secured seat T-SEAT-99 -> Ticket: TCK-0302-508
+   [Thread 1]: Denied -> Seat 'T-SEAT-99' on Schedule 302 is unavailable or bus is full!
+
+[SUMMARY] Java Application execution completed with zero defects.

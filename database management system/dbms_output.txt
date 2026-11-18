@@ -1,0 +1,83 @@
+===========================================================================
+PUBLIC TRANSPORT MANAGEMENT & PASSENGER TRAVEL ANALYSIS SYSTEM
+DBMS PROGRAM EXECUTION & QUERY RESULTS OUTPUT
+Database: SQLite 3 / Relational DBMS Engine
+===========================================================================
+
+=== Query 1: List all Active Buses with Capacity >= 35 ===
+SQL: SELECT BusID, BusNumber, Capacity, BusType, Status FROM Bus WHERE Status = 'Active' AND Capacity >= 35;
+BusID  | BusNumber    | Capacity | BusType          | Status
+-------+--------------+----------+------------------+-------
+BUS-02 | TN-09-E-2002 | 45       | Non-AC Seater    | Active
+BUS-03 | TS-07-H-3003 | 36       | Volvo Multi-Axle | Active
+BUS-05 | KA-05-D-5005 | 40       | Volvo Multi-Axle | Active
+BUS-06 | TN-38-A-6006 | 45       | Non-AC Seater    | Active
+(4 row(s) returned)
+
+=== Query 2: Route-wise Revenue and Booking Count (Aggregation & Grouping) ===
+SQL: SELECT r.RouteID, r.Source, r.Destination, COUNT(b.BookingID) AS TotalBookings, SUM(b.TotalFare) AS Revenue FROM Route r JOIN Schedule s ON r.RouteID = s.RouteID JOIN Booking b ON s.ScheduleID = b.ScheduleID WHERE b.Status = 'Confirmed' GROUP BY r.RouteID, r.Source, r.Destination ORDER BY Revenue DESC;
+RouteID | Source     | Destination | TotalBookings | Revenue
+--------+------------+-------------+---------------+--------
+201     | Bangalore  | Chennai     | 5             | 4300.0 
+203     | Bangalore  | Hyderabad   | 4             | 4300.0 
+207     | Bangalore  | Kochi       | 2             | 2400.0 
+205     | Chennai    | Coimbatore  | 2             | 2100.0 
+204     | Hyderabad  | Bangalore   | 2             | 1900.0 
+208     | Chennai    | Madurai     | 2             | 1600.0 
+206     | Coimbatore | Chennai     | 1             | 500.0  
+202     | Chennai    | Bangalore   | 1             | 450.0  
+(8 row(s) returned)
+
+=== Query 3: View Route-Wise Revenue View ===
+SQL: SELECT * FROM vw_RouteWiseRevenue;
+RouteID | Source     | Destination | Distance | TotalBookings | TotalRevenue | AverageTicketFare
+--------+------------+-------------+----------+---------------+--------------+------------------
+201     | Bangalore  | Chennai     | 350.0    | 5             | 4300.0       | 860.0            
+203     | Bangalore  | Hyderabad   | 570.0    | 4             | 4300.0       | 1075.0           
+207     | Bangalore  | Kochi       | 540.0    | 2             | 2400.0       | 1200.0           
+202     | Chennai    | Bangalore   | 350.0    | 2             | 450.0        | 450.0            
+205     | Chennai    | Coimbatore  | 510.0    | 2             | 2100.0       | 1050.0           
+208     | Chennai    | Madurai     | 460.0    | 2             | 1600.0       | 800.0            
+206     | Coimbatore | Chennai     | 510.0    | 1             | 500.0        | 500.0            
+204     | Hyderabad  | Bangalore   | 570.0    | 2             | 1900.0       | 950.0            
+(8 row(s) returned)
+
+=== Query 4: Bus Occupancy and Remaining Seats View ===
+SQL: SELECT * FROM vw_BusOccupancy;
+BusID  | BusNumber    | BusType          | Capacity | SeatsBooked | OccupancyPercentage | RemainingSeats
+-------+--------------+------------------+----------+-------------+---------------------+---------------
+BUS-01 | KA-01-F-1001 | AC Sleeper       | 30       | 6           | 20.0                | 24            
+BUS-05 | KA-05-D-5005 | Volvo Multi-Axle | 40       | 2           | 5.0                 | 38            
+BUS-04 | KL-01-C-4004 | Electric Express | 32       | 3           | 9.38                | 29            
+BUS-02 | TN-09-E-2002 | Non-AC Seater    | 45       | 1           | 2.22                | 44            
+BUS-06 | TN-38-A-6006 | Non-AC Seater    | 45       | 1           | 2.22                | 44            
+BUS-03 | TS-07-H-3003 | Volvo Multi-Axle | 36       | 4           | 11.11               | 32            
+BUS-07 | TS-09-B-7007 | AC Sleeper       | 30       | 2           | 6.67                | 28            
+(7 row(s) returned)
+
+=== Query 5: Multi-table Passenger Booking Details (5-table JOIN) ===
+SQL: SELECT p.Name AS PassengerName, p.Phone, t.TicketNo, b.SeatNo, r.Source, r.Destination, s.TravelDate, b.TotalFare FROM Passenger p JOIN Booking b ON p.PassengerID = b.PassengerID JOIN Ticket t ON b.BookingID = t.BookingID JOIN Schedule s ON b.ScheduleID = s.ScheduleID JOIN Route r ON s.RouteID = r.RouteID LIMIT 8;
+PassengerName | Phone      | TicketNo       | SeatNo | Source    | Destination | TravelDate | TotalFare
+--------------+------------+----------------+--------+-----------+-------------+------------+----------
+Aarav Sharma  | 9876543210 | TCK-202611-401 | S1     | Bangalore | Chennai     | 2026-11-20 | 850.0    
+Diya Patel    | 9876543211 | TCK-202611-402 | S2     | Bangalore | Chennai     | 2026-11-20 | 850.0    
+Rohan Verma   | 9876543212 | TCK-202611-403 | S3     | Bangalore | Chennai     | 2026-11-20 | 850.0    
+Sneha Reddy   | 9876543213 | TCK-202611-404 | S4     | Bangalore | Chennai     | 2026-11-20 | 850.0    
+Karthik Raman | 9876543214 | TCK-202611-405 | 12     | Chennai   | Bangalore   | 2026-11-20 | 450.0    
+Vikram Singh  | 9876543216 | TCK-202611-407 | V01    | Bangalore | Hyderabad   | 2026-11-21 | 1100.0   
+Ananya Iyer   | 9876543217 | TCK-202611-408 | V02    | Bangalore | Hyderabad   | 2026-11-21 | 1100.0   
+Rajesh Kumar  | 9876543218 | TCK-202611-409 | V05    | Bangalore | Hyderabad   | 2026-11-21 | 1100.0   
+(8 row(s) returned)
+
+=== Query 6: Subquery - Schedules with Fare greater than Average Fare ===
+SQL: SELECT ScheduleID, BusID, RouteID, TravelDate, Fare FROM Schedule WHERE Fare > (SELECT AVG(Fare) FROM Schedule);
+ScheduleID | BusID  | RouteID | TravelDate | Fare  
+-----------+--------+---------+------------+-------
+303        | BUS-03 | 203     | 2026-11-21 | 1100.0
+304        | BUS-04 | 204     | 2026-11-21 | 950.0 
+305        | BUS-05 | 205     | 2026-11-22 | 1050.0
+307        | BUS-01 | 207     | 2026-11-23 | 1200.0
+309        | BUS-03 | 201     | 2026-11-24 | 900.0 
+310        | BUS-04 | 203     | 2026-11-24 | 1000.0
+(6 row(s) returned)
+

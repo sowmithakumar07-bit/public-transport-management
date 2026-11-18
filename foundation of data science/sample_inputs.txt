@@ -1,0 +1,62 @@
+============================================================================
+FOUNDATIONS OF DATA SCIENCE (25ITC31)
+MANUAL GIVING - SAMPLE INPUT SEQUENCES
+============================================================================
+
+These sample inputs can be entered manually when running 'run_fds.bat' or
+running 'python data_science_app.py'.
+
+----------------------------------------------------------------------------
+SCENARIO 1: RUN FULL PIPELINE AND EXPORT 7 CHARTS
+----------------------------------------------------------------------------
+Menu Choice: 1
+[Expected Output]:
+- Preprocesses raw dataset (median imputation of missing values, duplicate removal, outlier capping)
+- Calculates descriptive statistics and travel patterns
+- Generates and saves all 7 charts in 'visualizations/' folder
+- Exports textual report to 'fds_output.txt'
+
+----------------------------------------------------------------------------
+SCENARIO 2: SPECIFIC ROUTE ANALYSIS (MANUAL INPUT)
+----------------------------------------------------------------------------
+Menu Choice: 2
+Enter Route Name: Bangalore -> Chennai
+(Or: Chennai -> Coimbatore, Bangalore -> Hyderabad, Chennai -> Madurai)
+[Expected Output]:
+- Total Bookings on Route
+- Total Revenue Generated
+- Average Fare
+- Bus Types Serving Route
+- Average Booking Lead Time
+
+----------------------------------------------------------------------------
+SCENARIO 3: STATISTICAL OUTLIER & Z-SCORE INSPECTION (MANUAL INPUT)
+----------------------------------------------------------------------------
+Menu Choice: 3
+Enter Z-Score Threshold: 2.0
+(Or: 2.5, 3.0)
+[Expected Output]:
+- Identifies and displays all passenger bookings where |z| exceeds the specified threshold.
+
+----------------------------------------------------------------------------
+SCENARIO 4: VIEW DATA CLEANING & QUALITY LOG
+----------------------------------------------------------------------------
+Menu Choice: 4
+[Expected Output]:
+- Duplicate records detected and dropped
+- Imputation methods applied
+- Outlier treatment log
+
+----------------------------------------------------------------------------
+SCENARIO 5: VIEW DESCRIPTIVE STATISTICS
+----------------------------------------------------------------------------
+Menu Choice: 5
+[Expected Output]:
+- Mean, Median, Mode, Variance, Standard Deviation, Min, Max, Quantiles (25%, 50%, 75%), IQR.
+
+----------------------------------------------------------------------------
+SCENARIO 6: CROSS-TABULATION PIVOT TABLE
+----------------------------------------------------------------------------
+Menu Choice: 6
+[Expected Output]:
+- Average fare pivot table grouped by Route vs. Bus Type.

@@ -1,0 +1,52 @@
+============================================================================
+DATABASE MANAGEMENT SYSTEMS (25ITT31)
+MANUAL GIVING - SAMPLE INPUT SEQUENCES
+============================================================================
+
+These sample inputs can be entered manually when running 'run_dbms.bat' or
+running 'python dbms_interactive.py'.
+
+----------------------------------------------------------------------------
+SCENARIO 1: EXECUTE CUSTOM SQL QUERY
+----------------------------------------------------------------------------
+Menu Choice: 1
+Sample Query 1:
+SELECT BusID, BusNumber, Capacity, BusType, Status FROM Bus WHERE Status = 'Active';
+
+Sample Query 2:
+SELECT r.Source, r.Destination, COUNT(b.BookingID) AS TotalBookings, SUM(b.TotalFare) AS Revenue
+FROM Route r
+JOIN Schedule s ON r.RouteID = s.RouteID
+JOIN Booking b ON s.ScheduleID = b.ScheduleID
+WHERE b.Status = 'Confirmed'
+GROUP BY r.RouteID, r.Source, r.Destination
+ORDER BY Revenue DESC;
+
+Sample Query 3 (Nested Subquery):
+SELECT ScheduleID, BusID, Fare FROM Schedule WHERE Fare > (SELECT AVG(Fare) FROM Schedule);
+
+----------------------------------------------------------------------------
+SCENARIO 2: VIEW SPECIFIC TABLE RECORDS
+----------------------------------------------------------------------------
+Menu Choice: 3
+Enter Table Name: Bus
+(Or: Passenger, Route, Schedule, Booking, Ticket)
+[Expected Output]: Tabular display of the first 20 records.
+
+----------------------------------------------------------------------------
+SCENARIO 3: VIEW PRE-BUILT REPORTS
+----------------------------------------------------------------------------
+Menu Choice: 4  -> View Route-Wise Revenue Report (vw_RouteWiseRevenue)
+Menu Choice: 5  -> View Bus Occupancy Report (vw_BusOccupancy)
+
+----------------------------------------------------------------------------
+SCENARIO 4: MANUALLY INSERT A NEW PASSENGER
+----------------------------------------------------------------------------
+Menu Choice: 6
+Enter Passenger ID     : 115
+Enter Full Name        : Arvind Venkatesh
+Enter Email Address    : arvind.v@example.com
+Enter Phone Number     : 9876543299
+Enter Gender           : Male
+Enter Address/City     : 55 North Street, Coimbatore
+[Expected Output]      : [SUCCESS] Passenger 'Arvind Venkatesh' registered successfully!
